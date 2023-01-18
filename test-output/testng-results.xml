@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T15:17:08 IST" name="Default suite" finished-at="2023-01-10T15:17:56 IST" duration-ms="48135">
+    <groups>
+      <group name="smoke">
+        <method signature="GroupTest.verifyBotLogoTest()[pri:0, instance:TestCases.GroupTest@39ee94de]" name="verifyBotLogoTest" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyCurrentUrlTest()[pri:2, instance:TestCases.GroupTest@39ee94de]" name="verifyCurrentUrlTest" class="TestCases.GroupTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupTest.verifyTitleTest()[pri:1, instance:TestCases.GroupTest@39ee94de]" name="verifyTitleTest" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyLoginLogoTest()[pri:3, instance:TestCases.GroupTest@39ee94de]" name="verifyLoginLogoTest" class="TestCases.GroupTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-01-10T15:17:08 IST" name="Default test" finished-at="2023-01-10T15:17:56 IST" duration-ms="48135">
+      <class name="TestCases.GroupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:08 IST" name="setup" finished-at="2023-01-10T15:17:16 IST" duration-ms="7949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBotLogoTest()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:16 IST" name="verifyBotLogoTest" finished-at="2023-01-10T15:17:16 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBotLogoTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:16 IST" name="closeBrowser" finished-at="2023-01-10T15:17:16 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:16 IST" name="setup" finished-at="2023-01-10T15:17:18 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:18 IST" name="verifyTitleTest" finished-at="2023-01-10T15:17:18 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:18 IST" name="closeBrowser" finished-at="2023-01-10T15:17:34 IST" duration-ms="16228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:34 IST" name="setup" finished-at="2023-01-10T15:17:37 IST" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCurrentUrlTest()[pri:2, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:37 IST" name="verifyCurrentUrlTest" finished-at="2023-01-10T15:17:37 IST" depends-on-methods="TestCases.GroupTest.verifyTitleTest" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentUrlTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:37 IST" name="closeBrowser" finished-at="2023-01-10T15:17:37 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:37 IST" name="setup" finished-at="2023-01-10T15:17:39 IST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginLogoTest()[pri:3, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:39 IST" name="verifyLoginLogoTest" finished-at="2023-01-10T15:17:39 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogoTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.GroupTest@39ee94de]" started-at="2023-01-10T15:17:39 IST" name="closeBrowser" finished-at="2023-01-10T15:17:56 IST" duration-ms="16223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.GroupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
