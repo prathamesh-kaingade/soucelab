@@ -18,6 +18,8 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.get(ReadData.readProperty("url"));
 //		driver.get("https://www.saucedemo.com/");
+// 		i have updated
+		
 	}
 	
 
